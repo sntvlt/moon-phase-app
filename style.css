@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    margin: 0;
+}
+.moon-card {
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 24px;
+    width: 300px;
+}
+.moon {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.moon-shadow {
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 35px;
+}
